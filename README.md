@@ -115,7 +115,14 @@ XGB Regressor with **98.15 %** accuray is one the best algorithm for this datast
  
 As you can see on this diagram that show only 200 first record of dataset , for XGB the values of the **y_pred** and **y_test** did cover each others good and one the best algorithm.
  
+ #### Decision Tree Regressor :
  
+Decision tree learning is one of the predictive modelling approaches used in statistics, data mining and machine learning. It uses a decision tree (as a predictive model) to go from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). Tree models where the target variable can take a discrete set of values are called classification trees; in these tree structures, leaves represent class labels and branches represent conjunctions of features that lead to those class labels. Decision trees where the target variable can take continuous values (typically real numbers) are called regression trees.
+
+Decision Tree Regressor with **96.72 %** accuray is on the sixth place of this list.
  
- 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Decision%20Tree%20Reg.png)
+
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each others good.
+
  
