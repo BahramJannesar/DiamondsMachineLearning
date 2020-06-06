@@ -121,7 +121,7 @@ Decision Tree Regressor with **96.72 %** accuray is on the sixth place of this l
 
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each others good.
 
- #### Gradient Boosting Regressor :
+#### Gradient Boosting Regressor :
 
 Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. It builds the model in a stage-wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function.
 
@@ -152,3 +152,12 @@ Random Forest Regressor with **98.14 %** accuray is one the best algorithm that 
 
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did cover each better than the others algorithms.
 
+#### Extra Trees Regressor :
+
+The Extra-Tree method (standing for extremely randomized trees) was proposed in [GEW06](https://orbi.uliege.be/handle/2268/9357), with the main objective of further randomizing tree building in the context of numerical input features, where the choice of the optimal cut-point is responsible for a large proportion of the variance of the induced tree.
+
+Random Forest Regressor with **98.16 %** accuray is the best algorithm that we calculated.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Extra%20Trees%20Reg.png)
+
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did cover each other well.
