@@ -176,8 +176,9 @@ The best accuracy between these algorithms is **75.27 %** with **SVM** but this 
 
 In pattern recognition, the k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression.[1] In both cases, the input consists of the k closest training examples in the feature space.
 
-One the important part of the kNN algorithm is to find the best k for learning we try these parameter and choose the best one of them :
-**1. first test :**
+One the important part of the kNN algorithm is to find the best k for learning we try these parameter and choose the best one of them.
+
+**1. First test :**
 
  * test_size = 30 %
  
@@ -185,7 +186,7 @@ One the important part of the kNN algorithm is to find the best k for learning w
  
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/1.png)
 
-**2. second test :**
+**2. Second test :**
 
  * test_size = 20 %
  
@@ -193,7 +194,7 @@ One the important part of the kNN algorithm is to find the best k for learning w
  
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/2.png)
 
-**3. third test :**
+**3. Third test :**
 
  * test_size = 30 %
  
@@ -201,7 +202,7 @@ One the important part of the kNN algorithm is to find the best k for learning w
  
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/3.png)
 
-**4. fourth test :**
+**4. Fourth test :**
 
  * test_size = 40 %
  
@@ -209,7 +210,7 @@ One the important part of the kNN algorithm is to find the best k for learning w
  
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/4.png)
 
-**5. fifth test :**
+**5. Fifth test :**
 
  * test_size = 40 %
  
@@ -217,7 +218,7 @@ One the important part of the kNN algorithm is to find the best k for learning w
  
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/5.png)
 
-**6. six test :**
+**6. Six test :**
 
  * test_size = 20 %
  
@@ -226,20 +227,42 @@ One the important part of the kNN algorithm is to find the best k for learning w
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/6.png)
 
 
-
-
-
-
-
-
-
-
-
-
-kNN ( k-Nearest Neighbors ) with **65.85 %** accuray is the worst algorithm that we ran.
+kNN ( k-Nearest Neighbors ) with k = 8 and **65.85 %** accuray is better than Logistic Regression.
 
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/knn.png)
 
-The confusion matrix of kNN :
+The **confusion matrix** of kNN :
 
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/knn_cf.png)
+
+Apart from the main diameter of the matrix. we see that the rest of the matrix is also inclined to dark color and shows the low accuracy of this algorithm.
+
+#### SVM ( Sub Vector Machine ) :
+
+In machine learning, support-vector machines (SVMs, also support-vector networks[1]) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. Given a set of training examples, each marked as belonging to one or the other of two categories, an SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier (although methods such as Platt scaling exist to use SVM in a probabilistic classification setting). An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on the side of the gap on which they fall.
+
+SVM ( Sub Vector Machine ) with **75.23 %** accuray is the best algorithm that we ran.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/svm.png)
+
+The **confusion matrix** of SVM :
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/svm_cf.png)
+
+Apart from the main diameter of the matrix. we see that the rest of the matrix is better than the others alogirthms confusion matrix. 
+
+
+#### Logistic Regression :
+
+the logistic model (or logit model) is used to model the probability of a certain class or event existing such as pass/fail, win/lose, alive/dead or healthy/sick. This can be extended to model several classes of events such as determining whether an image contains a cat, dog, lion, etc. Each object being detected in the image would be assigned a probability between 0 and 1 and the sum adding to one.
+
+Logistic Regression with **65.00 %** accuray is the worst algorithm that we ran.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/LogisticReg.png)
+
+The **confusion matrix** of SVM :
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/LogisticReg_cf.png)
+
+Apart from the main diameter of the matrix. we see that the rest of the matrix is also inclined to dark color and shows the low accuracy of this algorithm.
+
