@@ -40,11 +40,11 @@ On this dataset we used 2 methods of classic machine learining :
 
 **2.Classification** 
 
-used regression on all of the columns that were related to the **price** columns and for classification use all columns that were related to the **cut** column.
+Used regression on all of the columns that were related to the **price** columns and for classification use all columns that were related to the **cut** column.
 
 ### Regression on this dataset:
 
-we used 11 algorithm :
+Algorithms :
   
   * Lasso Regression
   * Linear Regression	
@@ -53,12 +53,14 @@ we used 11 algorithm :
   * XGBRFRegressor
   * Decision Tree Regressor
   * Gradient Boosting Regressor
-  * BaggingRegressor
+  * Bagging Regressor
   * Random Forest Regressor
-  * XGBRegressor
-  * ExtraTreesRegressor
+  * XGB Regressor
+  * Extra Trees Regressor
  
+ ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Accuracy%20Reg.png)
  
+  The best accuracy between these algorithms is **98.16 %** with **ExtraTreesRegressor**.
  
  
  
