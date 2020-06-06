@@ -62,6 +62,16 @@ Algorithms :
  
   The best accuracy between these algorithms is **98.16 %** with **ExtraTreesRegressor**.
  
+#### Lasso Regression :
+
+lasso (least absolute shrinkage and selection operator; also Lasso or LASSO) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the statistical model it produces. It was originally introduced in geophysics literature in 1986.
+
+LasssoRegression with **90.56 %** accuray is the worst algorithm for this dataset.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Lasso%20Reg.png)
+
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each other well. 
+ 
  
  
  
