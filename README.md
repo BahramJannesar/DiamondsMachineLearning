@@ -146,7 +146,7 @@ As you can see on this diagram that show only 200 first record of dataset , the 
 
 Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees .Random decision forests correct for decision trees' habit of overfitting to their training set.
 
-Random Forest Regressor with **98.14 %** accuray is one the best algorithm that we calculated.
+Random Forest Regressor with **98.14 %** accuray is one the best algorithm that we ran.
 
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Random%20Forest%20Reg.png)
 
@@ -156,8 +156,90 @@ As you can see on this diagram that show only 200 first record of dataset , the 
 
 The Extra-Tree method (standing for extremely randomized trees) was proposed in [GEW06](https://orbi.uliege.be/handle/2268/9357), with the main objective of further randomizing tree building in the context of numerical input features, where the choice of the optimal cut-point is responsible for a large proportion of the variance of the induced tree.
 
-Random Forest Regressor with **98.16 %** accuray is the best algorithm that we calculated.
+Random Forest Regressor with **98.16 %** accuray is the best algorithm that we ran.
 
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Extra%20Trees%20Reg.png)
 
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did cover each other well.
+
+### Classification on this dataset :
+
+Algorithms :
+  
+  * kNN ( k-Nearest Neighbors )
+  * SVM ( Sub Vector Machine )
+  * Logistic Regression
+
+The best accuracy between these algorithms is **75.27 %** with **SVM** but this algorithm with cv parameter equal 5 has very long time for learing like 4 hours.
+
+#### kNN ( k-Nearest Neighbors ) :
+
+In pattern recognition, the k-nearest neighbors algorithm (k-NN) is a non-parametric method used for classification and regression.[1] In both cases, the input consists of the k closest training examples in the feature space.
+
+One the important part of the kNN algorithm is to find the best k for learning we try these parameter and choose the best one of them :
+**1. first test :**
+
+ * test_size = 30 %
+ 
+ * random_state = 42
+ 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/1.png)
+
+**2. second test :**
+
+ * test_size = 20 %
+ 
+ * random_state = 21
+ 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/2.png)
+
+**3. third test :**
+
+ * test_size = 30 %
+ 
+ * random_state = 21
+ 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/3.png)
+
+**4. fourth test :**
+
+ * test_size = 40 %
+ 
+ * random_state = 21
+ 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/4.png)
+
+**5. fifth test :**
+
+ * test_size = 40 %
+ 
+ * random_state = 42
+ 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/5.png)
+
+**6. six test :**
+
+ * test_size = 20 %
+ 
+ * random_state = 42
+ 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+kNN ( k-Nearest Neighbors ) with **65.85 %** accuray is the worst algorithm that we ran.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/knn.png)
+
+The confusion matrix of kNN :
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Classification/knn_cf.png)
