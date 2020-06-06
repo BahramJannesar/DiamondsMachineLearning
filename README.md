@@ -80,11 +80,19 @@ Linear Regression with **90.5664 %** accuray and with **0.0005 %** difrence with
 
  ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/LinearReg.png)
  
- As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each other well like Lasso Regression.
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each other well like Lasso Regression.
  
+### Ridge Regression :
+
+Tikhonov regularization, named for Andrey Tikhonov, is a method of regularization of ill-posed problems. Also known as ***ridge regression***,it is particularly useful to mitigate the problem of multicollinearity in linear regression, which commonly occurs in models with large numbers of parameters.In general, the method provides improved efficiency in parameter estimation problems in exchange for a tolerable amount of bias (see bias–variance tradeoff).
  
+Ridge Regression with **90.5666 %** accuray and with **0.0002 %** difrence with Linear Regression is one the worst algorithm for this dataset.
  
- 
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/RidgeReg.png)
+
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each other well like Linear Regression.
+
+
  
  
  
