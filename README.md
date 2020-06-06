@@ -36,9 +36,9 @@ This classic dataset contains the prices and other attributes of almost 54,000 d
  
 On this dataset we used 2 methods of classic machine learining :
 
-**1.Regression** 
+**1. Regression** 
 
-**2.Classification** 
+**2. Classification** 
 
 Used regression on all of the columns that were related to the **price** columns and for classification use all columns that were related to the **cut** column.
 
