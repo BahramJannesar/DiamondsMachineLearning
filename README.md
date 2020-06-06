@@ -8,7 +8,7 @@
 
 This classic dataset contains the prices and other attributes of almost 54,000 diamonds. It's a great dataset for machine learnung and work with data analysis and visualization.
 
-### Dataset Columns:
+### Dataset Columns :
 
  * **price** : price in US dollars ( $326 - $18,823 )
 
@@ -42,7 +42,7 @@ On this dataset we used 2 methods of classic machine learining :
 
 Used regression on all of the columns that were related to the **price** columns and for classification use all columns that were related to the **cut** column.
 
-### Regression on this dataset:
+### Regression on this dataset :
 
 Algorithms :
   
