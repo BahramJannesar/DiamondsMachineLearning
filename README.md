@@ -131,5 +131,24 @@ Gradient Boosting Regressor with **97.66 %** accuray is on the sixth place of th
 
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each better than the others algorithms.
 
+#### Bagging Regressor :
 
+Bootstrap aggregating, also called bagging (from bootstrap aggregating), is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It also reduces variance and helps to avoid overfitting. Although it is usually applied to decision tree methods, it can be used with any type of method. Bagging is a special case of the model averaging approach.
+
+Bagging Regressor with **97.96 %** accuray and with **0.30 %** difrence with Gradient Boosting Regressor is one the best algorithm for this dataset.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Bagging%20Reg.png)
+
+
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did cover each better than the others algorithms.
+
+#### Random Forest Regressor :
+
+Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees .Random decision forests correct for decision trees' habit of overfitting to their training set.
+
+Random Forest Regressor with **98.14 %** accuray is one the best algorithm that we calculated.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Random%20Forest%20Reg.png)
+
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did cover each better than the others algorithms.
 
