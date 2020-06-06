@@ -31,3 +31,47 @@ This classic dataset contains the prices and other attributes of almost 54,000 d
  * **table** : width of top of diamond relative to widest point ( 43 - 95 )
  
  ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Image/Anglo-DiamondAnatomy_03.jpg)
+ 
+ ## Machine Learning
+ 
+On this dataset we used 2 methods of classic machine learining :
+
+**1.Regression** 
+
+**2.Classification** 
+
+used regression on all of the columns that were related to the **price** columns and for classification use all columns that were related to the **cut** column.
+
+### Regression on this dataset:
+
+we used 11 algorithm :
+  
+  * Lasso Regression
+  * Linear Regression	
+  * Ridge Regression
+  * Adaboost Regressor
+  * XGBRFRegressor
+  * Decision Tree Regressor
+  * Gradient Boosting Regressor
+  * BaggingRegressor
+  * Random Forest Regressor
+  * XGBRegressor
+  * ExtraTreesRegressor
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
