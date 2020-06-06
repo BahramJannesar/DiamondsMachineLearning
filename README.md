@@ -102,12 +102,18 @@ Adaboost Regressor with **91.87 %** accuray is on the fouth place of this list.
 
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each others good.
 
+#### XGBRF Regressor and XGB Regressor :
 
+XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable.
+It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree
+boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way.
  
+XGBRF Regressor with **96.28 %** accuray is on the fifth place of this list.
+XGB Regressor with **98.15 %** accuray is one the best algorithm for this datast and is on the ninth place of this list.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/GBR.png)
  
- 
- 
- 
+As you can see on this diagram that show only 200 first record of dataset , for XGB the values of the **y_pred** and **y_test** did cover each others good and one the best algorithm.
  
  
  
