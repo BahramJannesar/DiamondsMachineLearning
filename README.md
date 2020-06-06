@@ -72,7 +72,7 @@ Lassso Regression with **90.5659 %** accuray is the worst algorithm for this dat
 
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each other well. 
  
-### Linear Regression :
+#### Linear Regression :
 
 Linear regression is a linear approach to modeling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). The case of one explanatory variable is called simple linear regression. 
 
@@ -82,7 +82,7 @@ Linear Regression with **90.5664 %** accuray and with **0.0005 %** difrence with
  
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each other well like Lasso Regression.
  
-### Ridge Regression :
+#### Ridge Regression :
 
 Tikhonov regularization, named for Andrey Tikhonov, is a method of regularization of ill-posed problems. Also known as ***ridge regression***,it is particularly useful to mitigate the problem of multicollinearity in linear regression, which commonly occurs in models with large numbers of parameters.In general, the method provides improved efficiency in parameter estimation problems in exchange for a tolerable amount of bias (see bias–variance tradeoff).
  
@@ -91,6 +91,16 @@ Ridge Regression with **90.5666 %** accuray and with **0.0002 %** difrence with 
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/RidgeReg.png)
 
 As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each other well like Linear Regression.
+
+#### Adaboost Regressor :
+
+AdaBoost, short for Adaptive Boosting, is a machine learning meta-algorithm formulated by Yoav Freund and Robert Schapire, who won the 2003 Gödel Prize for their work. It can be used in conjunction with many other types of learning algorithms to improve performance. The output of the other learning algorithms ('weak learners') is combined into a weighted sum that represents the final output of the boosted classifier.
+
+Adaboost Regressor with **91.87 %** accuray is on the fouth place of this list.
+
+![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Accuracy%20Regression/Adaboost%20Reg.png)
+
+As you can see on this diagram that show only 200 first record of dataset , the values of the **y_pred** and **y_test** did not cover each others good.
 
 
  
