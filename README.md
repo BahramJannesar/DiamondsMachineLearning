@@ -4,7 +4,7 @@
 
 ![](https://github.com/BahramJannesar/DiamondsMachineLearning/blob/master/Image/GuideToDiamonds_LP_Hero_Desktop_v2-2.jpeg)
 
-## Diamonds Dataset 
+## Diamonds Dataset :
 
 This classic dataset contains the prices and other attributes of almost 54,000 diamonds. It's a great dataset for machine learnung and work with data analysis and visualization.
 
